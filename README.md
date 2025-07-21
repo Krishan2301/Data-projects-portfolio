@@ -58,7 +58,7 @@ Predict whether a person filed an insurance claim.
 ---
 
 ## 🚀 How to Use This Repo
-1. Explore `Smartphone_EDA.ipynb` for analysis  
+1. Run `Smartphone_EDA.py` for analysis  
 2. Run `logistic_regression_optimized.py` to train the model  
 3. View plots and conclusions inside each file  
 
