@@ -1,55 +1,70 @@
-# 🧠 Data Projects Portfolio
+# 📊 Data Projects Portfolio
 
-Welcome to my portfolio of data-driven projects! This repository showcases my work in **exploratory data analysis (EDA)**, **data visualization**, **feature engineering**, and **insight extraction** using real-world datasets.
-
-Each project contains its own folder with:
-- 📊 Jupyter notebooks or scripts
-- 📂 Cleaned datasets (or links to source data)
-- 📈 Visualizations and insights
-- 📑 Presentations (PowerPoint or PDF format)
+Welcome! This repository contains two data science projects that focus on extracting real-world insights using Python. Each project applies different techniques—from exploratory analysis to predictive modeling—to solve business-relevant problems.
 
 ---
 
-## 📁 Projects Included
+## 📁 Project 1: Smartphone Market Analysis (EDA)
 
-### 1. 📱 Smartphone Market Analysis (EDA Project)
-- Performed detailed EDA on a dataset of 1,020 smartphones.
-- Extracted RAM, price, camera specs from messy strings.
-- Cleaned data anomalies (e.g., misclassified entries like "Bluetooth" in OS).
-- Visualized trends across price segments and specifications.
-- **Tools Used:** Python, Pandas, Regex, Seaborn, Matplotlib, PowerPoint
+**Goal:**  
+Understand the smartphone market using specifications and pricing data.
 
-➡️ [See Project Folder](./smartphone-market-analysis)
+**What We Did:**
+- Cleaned messy text data (e.g., RAM, camera, battery)
+- Engineered new features (5G, charging speed, display size, etc.)
+- Visualized patterns across brands, price ranges, and specs
 
----
+**Insights:**
+- Most phones have **4–8 GB RAM**, **128 GB storage**, and **5000 mAh battery**
+- **50–64 MP** is the common camera range
+- **Mid-range phones** offer the best rating-to-price value
+- **5G is common**, but **NFC and IR blaster** are rare
 
-## 📌 Tools & Technologies Used
-
-- **Languages**: Python
-- **Libraries**: Pandas, Matplotlib, Seaborn, Regex
-- **Notebook Environment**: Jupyter
-- **Reporting Tools**: PowerPoint, Markdown
-- **Version Control**: Git + GitHub
-
----
-
-## 🚀 About Me
-
-I'm passionate about using data to uncover patterns and tell compelling stories. This repo demonstrates my ability to:
-- Work with real-world, messy data
-- Build reusable EDA pipelines
-- Deliver insights with clarity and impact
-
-Feel free to explore, fork, or reach out!
+**Value Delivered:**
+- Helps consumers & marketers understand how price aligns with specs
+- Can guide product comparisons or targeted promotions
 
 ---
 
-## 📬 Contact
+## 📁 Project 2: Insurance Claim Prediction (Logistic Regression)
 
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
-- **Email**: your.email@example.com
-- **Portfolio Website**: [Your Website (if any)](https://yourwebsite.com)
+**Goal:**  
+Predict whether a person filed an insurance claim.
+
+**What We Did:**
+- Cleaned missing values and outliers
+- Scaled numerical data
+- Built a logistic regression model using a clean pipeline
+
+**Model Performance:**
+- Good prediction accuracy using basic features
+- ROC AUC added to evaluate model's classification strength
+
+**Insights:**
+- Claim predictions are influenced by age, seatbelt use, and insurance status
+- Most impactful preprocessing steps were scaling and median imputation
+
+**Value Delivered:**
+- Automates claim prediction
+- Helps insurers flag cases for review or intervention
 
 ---
 
-> ⭐ Star this repo if you'd like to support or revisit it later!
+## 🛠 Tools Used
+- Python, Pandas, NumPy  
+- Scikit-Learn, Seaborn, Matplotlib  
+- Jupyter Notebook, PowerPoint
+
+---
+
+## 🚀 How to Use This Repo
+1. Explore `Smartphone_EDA.ipynb` for analysis  
+2. Run `logistic_regression_optimized.py` to train the model  
+3. View plots and conclusions inside each file  
+
+---
+
+## 👤 Author
+**[Krishan]**  
+📧 jangirk2307@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/jangirk2307) | [GitHub](https://github.com/Krishan2301)
